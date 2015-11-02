@@ -42,6 +42,9 @@ on init
     mkdir /bt_firmware 0771 system system
     mkdir /persist 0771 system system
     chmod 0644 /proc/cmdline
+	
+	# By default, primary storage is physical
+    setprop ro.vold.primary_physical 1
 
     # Support legacy paths
     symlink /sdcard /mnt/sdcard

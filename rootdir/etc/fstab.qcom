@@ -17,4 +17,4 @@
 /dev/block/platform/msm_sdcc.1/by-name/modem                   /firmware         vfat    ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337                                                        wait
 /dev/block/bootdevice/by-name/bluetooth               /bt_firmware      vfat    ro,shortname=lower,uid=1002,gid=1002,dmask=222,fmask=333                                                        wait
 
-/devices/platform/xhci-hcd*  auto              auto    defaults                                                                                                        voldmanaged=usbdisk:auto
+/devices/platform/xhci-hcd*  auto              auto    defaults                                                                                                        voldmanaged=usb:auto

@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
 # BoringSSL compatability wrapper
 PRODUCT_PACKAGES += \
     libboringssl-compat
+    
+# Build libstlport for legacy blobs
+PRODUCT_PACKAGES += \
+    libstlport
 
 # Charger
 PRODUCT_PACKAGES += \

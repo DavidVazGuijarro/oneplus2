@@ -1,0 +1,1 @@
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_vendor_cm refs/changes/36/111336/28 && git cherry-pick FETCH_HEAD

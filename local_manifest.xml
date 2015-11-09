@@ -7,7 +7,7 @@
 <!-- OnePlus Two -->
 <project path="device/oneplus/oneplus2" name="OPT-Dev/android_device_oneplus_oneplus2" remote="github" revision="cm-13.0-exp" />
 <project path="kernel/oneplus/msm8994" name="AuxXxilium/android_kernel_oneplus_msm8994" remote="github" revision="VisionX" />
-<project path="vendor/oneplus" name="Grarak/proprietary_vendor_oneplus" remote="github" revision="cm-13.0-exp" />
+<project path="vendor/oneplus" name="OPT-Dev/proprietary_vendor_oneplus" remote="github" revision="cm-13.0-exp" />
 
 <!-- COMMON-->
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
